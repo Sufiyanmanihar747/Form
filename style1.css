@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #4b00ff63;
+}
+
+.container {
+    margin: 50px 138px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 0 7px black;
+    padding: 24px;
+}
+
+.personal {
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+    margin: 20px 0px;
+}
+
+.personal2 {
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+    margin: 20px 0px;
+}
+
+.detail {
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+    margin: 20px 0px;
+}
+
+.detail2 {
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+    margin: 20px 0px;
+}
+
+.skill {
+    display: flex;
+    gap: 60px;
+    margin: 20px 0px;
+}
+
+.document {
+    display: flex;
+    margin: 20px 0px;
+    gap: 60px;
+}
+
+.document input {
+    margin: 10px 0px;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.checkbox input {
+    width: 20px;
+}
+
+.btn {
+    display: flex;
+    justify-content: start;
+    gap: 15px;
+}
+
+.btn input {
+    width: 140px;
+    height: 32px;
+    border-radius: 7px;
+    border: none;
+}
+
+.birthdate {
+    width: 300px;
+}
+
+input {
+    height: 35px;
+    margin: 5px 0px;
+    width: 300px;
+    caret-color: red;
+}
+
+textarea {
+    margin: 5px 0px;
+}
+
+h3 {
+    font-size: 23px;
+}
+
+h4 {
+    font-weight: lighter;
+}
+
+.range {
+    height: 3px;
+}
+
+.submit {
+    background-color: #4b00ff80;
+    color: black;
+    font-weight: 900;
+}
+
+.submit:hover {
+    box-shadow: 0 0 4px black;
+}
+
+.reset:hover {
+    box-shadow: 0 0 4px black;
+}

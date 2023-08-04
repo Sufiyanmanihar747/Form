@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>form2</title>
+    <link rel="stylesheet" href="style1.css">
+    <!-- USED TO CHANGE COLOR OF BROWSER TAB -->
+    <meta name="theme-color" content="#4b00ff63">
+</head>
+
+<body>
+    <form action="">
+        <div class="container">
+            <h2 style="text-align: center;font-size: 35px;">Registration</h2>
+            <h3>Personal Details</h3>
+            <div class="personal">
+                <div>
+                    <h4>Full Name</h4>
+                    <input type="text" name="name" id="name" placeholder="Enter your name" required>
+                </div>
+                <div>
+                    <h4>Date of Birth</h4>
+                    <input type="date" name="date" id="date" class="birthdate" required>
+                </div>
+                <div>
+                    <h4>Email</h4>
+                    <input type="email" name="email" id="email" placeholder="Enter your email" required>
+                </div>
+            </div>
+            <div class="personal2">
+                <div>
+                    <h4>Mobile Number</h4>
+                    <input type="tel" name="pno" id="pno" placeholder="Enter your number" pattern="[0-9]{10}" required>
+                </div>
+                <div>
+                    <h4>Gender</h4>
+                    <input type="text" name="text" id="text" placeholder="Enter your gender" required>
+                </div>
+                <div>
+                    <h4>Occupation</h4>
+                    <input type="number" name="occupation" id="occupation" placeholder="Enter your occupation" required>
+                </div>
+            </div>
+            <h3>Identity Details</h3>
+            <div class="detail">
+                <div>
+                    <h4>ID Type</h4>
+                    <input type="text" placeholder="Enter your id" required>
+                </div>
+                <div>
+                    <h4>ID Number</h4>
+                    <input type="number" placeholder="Enter your no" required>
+                </div>
+                <div>
+                    <h4>Issue Authority</h4>
+                    <input type="number" placeholder="Enter your number" required>
+                </div>
+            </div>
+            <div class="detail2">
+                <div>
+                    <h4>Issue State</h4>
+                    <input type="text" placeholder="Enter your issue" required>
+                </div>
+                <div>
+                    <h4>Issue Date</h4>
+                    <input type="date" class="birthdate" required>
+                </div>
+                <div>
+                    <h4>Expiry Date</h4>
+                    <input type="date" class="birthdate" required>
+                </div>
+            </div>
+            <h3>Your skills</h3>
+            <div class="skill">
+                <div>
+                    <div>
+                        <h4>HTML</h4>
+                        <input type="range" class="range" name="skills" id="html">
+                    </div>
+                    <div>
+                        <h4>CSS</h4>
+                        <input type="range" class="range" name="skills" id="css">
+                    </div>
+                    <div>
+                        <h4>JAVASCRIPT</h4>
+                        <input type="range" class="range" name="skills" id="javascript">
+                    </div>
+                    <div>
+                        <h4>C++</h4>
+                        <input type="range" class="range" name="skills" id="c++">
+                    </div>
+                    <div>
+                        <h4>SQL</h4>
+                        <input type="range" class="range" name="skills" id="sql">
+                    </div>
+                </div>
+                <div>
+                    <h4>Any Query</h4>
+                    <textarea name="query" id="query" cols="30" rows="10" placeholder="Enter your query"
+                        required></textarea>
+                </div>
+            </div>
+            <h3>Submit Your Document</h3>
+            <div class="document">
+                <div>
+                    <h4>Upload Your file: </h4>
+                    <input type="file" id="document" style="cursor: pointer;" required>
+                </div>
+                <div>
+                    <h4>Upload Your Photo: </h4>
+                    <input type="file" name="image" accept="image/*" style="cursor: pointer;" required>
+                </div>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" name="box" id="box">
+                <h4>Keep me Sign in </h4>
+            </div>
+            <div class="btn">
+                <input type="submit" class="submit" style="cursor: pointer;">
+                <input type="reset" style="cursor: pointer;" class="reset">
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
